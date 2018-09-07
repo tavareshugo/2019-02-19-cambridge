@@ -6,12 +6,12 @@ address: "Bioinformatics Training Room, Craik-Marshall Building, Downing Site"  
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "52.201951,0.122514"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "Apr 16-17, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Sep 24-25, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30 - 17:30"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-04-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-04-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Adrian Baez-Ortega, Ashley Sawle, Hugo Tavares, Mark Fernandes"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+startdate: 2018-09-24      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-09-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Ashley Sawle, Hugo Tavares, Mark Fernandes"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [Alexia Cordana]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["Gabriella Rustici <gr231@cam.ac.uk>"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  http://pad.software-carpentry.org/2018-04-16-cambridge   # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
