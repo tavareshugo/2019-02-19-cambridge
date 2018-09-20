@@ -251,10 +251,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li><a href="http://www.datacarpentry.org/R-ecology-lesson/03-dplyr.html">Data manipulation using the R package dplyr</a> (Hugo)</li>
 </ol>
 
+<p>
 <a href="https://rawgit.com/tavareshugo/data_carpentry_extras/master/recap_intro_r/recap_intro_r.html">Recap of R materials from Day 1</a>
+</p>
 
+<p>
 <a href="https://rawgit.com/tavareshugo/data_carpentry_extras/master/base-r_tidyverse_equivalents/base-r_tidyverse_equivalents.html">Syntax comparisons between "dplyr" and "base R".</a>
-
+</p>
 
 
 <h3>Day 2</h3>
