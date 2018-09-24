@@ -282,7 +282,7 @@ Learn more about SQL from the
 </p>
 <p>
   Data files for the lesson are available 
-  <a href="https://ndownloader.figshare.com/files/7823341">here</a>.
+  <a href="https://ndownloader.figshare.com/files/2292169">here</a>.
 </p>
 
 {% comment %}
