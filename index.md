@@ -222,6 +222,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 {% endif %}
 
+<img src="assets/img/Data_carpentry_overview_fig.png" alt="overview" width="800"/>
+
 <h2 id="schedule">Schedule</h2>
 
 <h3>Day 1</h3>
