@@ -287,6 +287,38 @@ Learn more about SQL from the
   <a href="https://ndownloader.figshare.com/files/2292169">here</a>.
 </p>
 
+
+<h2>Further resources</h2>
+
+R packages that might be of interest:
+
+<ol>
+  <li><a href="http://naniar.njtierney.com/">naniar</a> - R package to help summarise, visualise and manipulate missing data.</li>
+  <li><a href="http://visdat.njtierney.com/">visdat</a> - R package to get a first quick "visual" look at the data.</li>
+  <li><a href="https://bioconductor.org/">Bioconductor</a> - repository for packages related to Bioinformatics. These packages are installed differently from the normal packages. Instructions on how to install them is available on each package's page.
+	(see for example the <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a> package page).</li>
+</ol>
+
+Online material from other courses/tutorials:
+
+(see <a href="https://www.training.cam.ac.uk/search?course_type_facet_shown=&scheduled=on&course_date_facet_shown=true&course_availability_facet_shown=&provider_1345591=on&provider_facet_shown=&scrollPos=513">list of courses</a> running at Cambridge University)
+
+<ol>
+  <li><a href="https://lgatto.github.io/IntroMachineLearningWithR/">An Introduction to Machine Learning with R</a> - a practical course on using machine learning methods in R</li>
+  <li><a href="https://bioinformatics-core-shared-training.github.io/CRUK_CI_RNAseq_course/">RNA-seq analysis course</a> - these are the materials for a course that regularly runs at Cambridge University</li>
+  <li><a href="https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html">RNA-seq workflow using Bioconductor</a></li>
+</ol>
+
+
+Books: 
+
+<ol>
+  <li><a href="http://r4ds.had.co.nz/">R for Data Science</a> - covers many of the topis we talked about in this course, as well as more advanced topics. Highly recommended as a follow up from this course!</li>
+  <li><a href="http://www-bcf.usc.edu/~gareth/ISL/">Introduction to Statistical Learning</a> - an introductory book about machine learning using R</li>
+  <li><a href="https://xcelab.net/rm/statistical-rethinking/">Statistical Rethinking</a> (not freely available) - an introduction book about statistical modelling using R</li>
+</ol>
+
+
 {% comment %}
   SYLLABUS
 
