@@ -290,6 +290,12 @@ Learn more about SQL from the
 
 <h2>Further resources</h2>
 
+<p>
+Cheatsheets for dplyr, ggplot2 and much more:
+	<a href="https://www.rstudio.com/resources/cheatsheets/">RStudio Cheatsheets</a>
+- print them and keep them handy, or just pin them over your desk to look cool!
+</p>
+
 R packages that might be of interest:
 
 <ol>
