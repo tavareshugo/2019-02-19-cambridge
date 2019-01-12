@@ -1,19 +1,69 @@
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr><td>Morning</td> <td> <a href=http://www.datacarpentry.org/spreadsheet-ecology-lesson/>Data organization in spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href=http://www.datacarpentry.org/OpenRefine-ecology-lesson/>OpenRefine for data cleaning</a></td></tr>
-      <tr><td>Afternoon</td><td><a href=http://www.datacarpentry.org/R-ecology-lesson/>Introduction to R</a></td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>Morning</td> <td><a href=http://www.datacarpentry.org/R-ecology-lesson/>Continuation of R: data analysis & visualization</a></td></tr>
-      <tr> <td>Afternoon</td><td><a href=http://www.datacarpentry.org/sql-ecology-lesson/>Data management with SQL</a></td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
-    </table>
-  </div>
-</div>
+<h3>Day 1</h3>
+  <h4>Data organization in spreadsheets (Hugo)</h4>
+
+  <p>
+  Digital data recording often starts with a spreadsheet software (e.g. Excel). 
+  For an effective data analysis, it's crucial to start with a well structured and 
+  formatted dataset. Because of this, before diving into R, we will start by having 
+  a discussion about common issues that should be considered when recording data in spreadsheets.
+  </p>
+
+  <ul>
+    <li>Download data for this lesson <a href="https://ndownloader.figshare.com/files/2252083">here</a>.</li>
+    <li>Find detailed materials <a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/">here</a>. 
+    In particular, look at the <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/index.html">
+    list of common formatting problems</a>.
+    <ul>
+      <li>You can find an example tidy data 
+        <a href="https://docs.google.com/spreadsheets/d/1VIygwM-x-wuYVGJv1JFFPRosg0DzSXdM1jLf5bHwg7o/edit?usp=sharing">here</a>.
+      </li></ul>
+    </li>
+  </ul>
+
+
+  <h4>Introduction to R (James)</h4>
+  
+  This lesson will cover the very basics of using R with RStudio. 
+
+  <ul>
+    <li><a href="http://www.datacarpentry.org/R-ecology-lesson/00-before-we-start.html">Overview of R and Rstudio</a></li>
+    <li><a href="http://www.datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Introduction to R</a></li>
+    <li><a href="http://www.datacarpentry.org/R-ecology-lesson/02-starting-with-data.html">Working with tabular data in R</a></li>
+  </ul>
+  
+  <a href="https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#1_intro">Exercises</a>
+  
+  <h4>Data manipulation in R (Hugo)</h4>
+  
+  This lesson will cover some functions to effectively manipulate and summarise 
+  tabular data using the <code>dplyr</code> package.
+  
+  <ul>
+    <li><a href="http://www.datacarpentry.org/R-ecology-lesson/03-dplyr.html">Data manipulation using the R package dplyr</a></li>
+  </ul>
+
+  <a href="https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#2_manipulating_data_frames_with_dplyr">Exercises</a>
+
+<h3>Day 2</h3>
+
+  <h4>Data visualisation in R (Crina)</h4>
+  
+  This lesson teaches you how to use the <code>ggplot2</code> R package to make 
+  a wide range of plot types.
+  
+  <ul>
+    <li><a href="http://www.datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Data visualisation with ggplot2</a></li>
+  </ul>
+  
+  <a href="https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2">Exercises</a>
+  
+
+  <h4>Interacting with databases in R (Hugo)</h4>
+  
+  This lesson will briefly cover how to use the <code>dbplyr</code> package to 
+  connect and query databases. 
+  
+  <ul>
+    <li><a href="http://www.datacarpentry.org/R-ecology-lesson/05-r-and-databases.html">Using the <code>dbplyr</code> package to access databases</a></li>
+    <li><em>Make document with example of accessing ENSEMBL database</em></li>
+  </ul>
