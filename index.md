@@ -6,14 +6,14 @@ address: "Bioinformatics Training Room, Craik-Marshall Building, Downing Site"  
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "52.201951,0.122514"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "Sep 24-25, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Feb 19-20, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30 - 17:30"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-09-24      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-09-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Ashley Sawle, Hugo Tavares, Mark Fernandes"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [Alexia Cordana]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+startdate: 2019-02-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-02-20      # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Crina Samarghitean, James Savage, Hugo Tavares"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Martin van Rongen"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["Gabriella Rustici <gr231@cam.ac.uk>"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  http://pad.software-carpentry.org/2018-09-24-cambridge   # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes:  http://pad.software-carpentry.org/2019-02-19-cambridge   # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -222,79 +222,41 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 {% endif %}
 
-<img src="assets/img/Data_carpentry_overview_fig.png" alt="overview" width="800"/>
 
 <h2 id="schedule">Schedule</h2>
 
-<h3>Day 1</h3>
-
-<h4>Data organization in spreadsheets (Mark)</h4>
-
-<p>
-  Data files for the lesson are available 
-  <a href="https://ndownloader.figshare.com/files/2252083">here</a>.
-</p>
-
-<ol>
-  <li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/00-intro/">Introduction</a></li>
-  <li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/">Formatting data</a></li>
-  <li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/">Common formatting problems</a></li>
-  <li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/03-dates-as-data/">Dates as data</a></li>
-  <li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/">Quality control</a></li>
-  <li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/05-exporting-data/">Exporting data</a></li>
-</ol>
-
-<h4>Data analysis with R</h4>
-
-<ol>
-  <li><a href="http://www.datacarpentry.org/R-ecology-lesson/00-before-we-start.html">Overview of R and Rstudio</a> (Ash)</li>
-  <li><a href="http://www.datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Introduction to R</a> (Ash)</li>
-  <li><a href="http://www.datacarpentry.org/R-ecology-lesson/02-starting-with-data.html">Working with tabular data in R</a> (Ash)</li>
-  <li><a href="http://www.datacarpentry.org/R-ecology-lesson/03-dplyr.html">Data manipulation using the R package dplyr</a> (Hugo)</li>
-</ol>
-
-<p>
-<a href="https://rawgit.com/tavareshugo/data_carpentry_extras/master/recap_intro_r/recap_intro_r.html">Recap of R materials from Day 1</a>
-</p>
-
-<p>
-<a href="https://rawgit.com/tavareshugo/data_carpentry_extras/master/base-r_tidyverse_equivalents/base-r_tidyverse_equivalents.html">Syntax comparisons between "dplyr" and "base R".</a>
-</p>
-
-
-<h3>Day 2</h3>
-
-
-<h4>Data analysis with R</h4>
-
-<ol>
-  <li><a href="http://www.datacarpentry.org/R-ecology-lesson/03-dplyr.html">Data manipulation using the R package dplyr (continued)</a> (Hugo)</li>
-  <li><a href="http://www.datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Data visualisation using the R package ggplot2</a> (Ash)</li>
-  <li><a href="http://www.datacarpentry.org/R-ecology-lesson/05-r-and-databases.html">Interacting with databases from R</a> (Mark)</li>
-</ol>
-
-Learn more about SQL from the 
-<a href="http://www.datacarpentry.org/sql-ecology-lesson/00-sql-introduction/">SQL data lessons</a>.
-
-<h4>Demo: Data cleaning with OpenRefine</h4>
-
-<p>
-  Full lesson materials for OpenRefine are available 
-  <a href="http://www.datacarpentry.org/OpenRefine-ecology-lesson">here</a>
-</p>
-<p>
-  Data files for the lesson are available 
-  <a href="https://ndownloader.figshare.com/files/2292169">here</a>.
-</p>
-
+{% if page.carpentry == "swc" %}
+  {% include sc/schedule.html %}
+{% elsif page.carpentry == "dc" %}
+  {% include dc/schedule.html %}
+{% elsif page.carpentry == "lc" %}
+  {% include lc/schedule.html %}
+{% endif %}
 
 <h2>Further resources</h2>
 
-<p>
-Cheatsheets for dplyr, ggplot2 and much more:
-	<a href="https://www.rstudio.com/resources/cheatsheets/">RStudio Cheatsheets</a>
-- print them and keep them handy, or just pin them over your desk to look cool!
-</p>
+<ul>
+<li><a href="https://tavareshugo.github.io/data_carpentry_extras/recap_intro_r/recap_intro_r.html">Summary of R basics</a></li>
+<li><a href="https://tavareshugo.github.io/data_carpentry_extras/base-r_tidyverse_equivalents/base-r_tidyverse_equivalents.html">Summary of dplyr functions and their equivalent in base R</a></li>
+<li><a href="https://www.rstudio.com/resources/cheatsheets/">Cheatsheets for dplyr, ggplot2 and more</a></li>
+<li><a href="https://www.data-to-viz.com/">Data to Viz</a> website helps you choose 
+appropriate visualisations for your data (and also some caveats to think 
+about when making a graph!).</li>
+</ul>
+
+<p></p>
+<p>Extra materials/books:</p>
+
+<ul>
+<li><a href="http://r4ds.had.co.nz/">R for Data Science</a> - a nice follow-up from this course focusing on "tidyverse" packages</li>
+<li><a href="http://www-bcf.usc.edu/~gareth/ISL/">Introduction to Statistical Learning</a> - an introductory book about machine learning using R
+
+<ul>
+<li>Also see <a href="https://lgatto.github.io/IntroMachineLearningWithR/">this course material</a> for a practical introduction to this topic</li></ul>
+</li>
+
+<li><a href="https://xcelab.net/rm/statistical-rethinking/">Statistical Rethinking</a> (not freely available) - an introduction book about statistical modelling using R</li>
+
 
 R packages that might be of interest:
 
@@ -303,25 +265,6 @@ R packages that might be of interest:
   <li><a href="http://visdat.njtierney.com/">visdat</a> - R package to get a first quick "visual" look at the data.</li>
   <li><a href="https://bioconductor.org/">Bioconductor</a> - repository for packages related to Bioinformatics. These packages are installed differently from the normal packages. Instructions on how to install them is available on each package's page.
 	(see for example the <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a> package page).</li>
-</ol>
-
-Online material from other courses/tutorials:
-
-(see <a href="https://www.training.cam.ac.uk/search?course_type_facet_shown=&scheduled=on&course_date_facet_shown=true&course_availability_facet_shown=&provider_1345591=on&provider_facet_shown=&scrollPos=513">list of courses</a> running at Cambridge University)
-
-<ol>
-  <li><a href="https://lgatto.github.io/IntroMachineLearningWithR/">An Introduction to Machine Learning with R</a> - a practical course on using machine learning methods in R</li>
-  <li><a href="https://bioinformatics-core-shared-training.github.io/CRUK_CI_RNAseq_course/">RNA-seq analysis course</a> - these are the materials for a course that regularly runs at Cambridge University</li>
-  <li><a href="https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html">RNA-seq workflow using Bioconductor</a></li>
-</ol>
-
-
-Books: 
-
-<ol>
-  <li><a href="http://r4ds.had.co.nz/">R for Data Science</a> - covers many of the topis we talked about in this course, as well as more advanced topics. Highly recommended as a follow up from this course!</li>
-  <li><a href="http://www-bcf.usc.edu/~gareth/ISL/">Introduction to Statistical Learning</a> - an introductory book about machine learning using R</li>
-  <li><a href="https://xcelab.net/rm/statistical-rethinking/">Statistical Rethinking</a> (not freely available) - an introduction book about statistical modelling using R</li>
 </ol>
 
 
